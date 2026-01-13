@@ -1,0 +1,20 @@
+<div class="grid grid-cols-3 gap-4">
+  <% accounts.forEach(acc => { %>
+    <div class="p-6 bg-white rounded-xl shadow-md border-l-4 border-blue-500">
+      <h2 class="text-gray-500 uppercase text-xs font-bold"><%= acc.currency %> Wallet</h2>
+      <p class="text-2xl font-mono">$<%= acc.balance %></p>
+    </div>
+  <% }) %>
+</div>
+
+<form action="/transfer" method="POST" class="mt-8 bg-gray-50 p-6 rounded-lg">
+  <h3 class="font-bold mb-4">Send Money</h3>
+  <select name="fromAccountId" class="block w-full mb-2 p-2">
+      <% accounts.forEach(acc => { %>
+        <option value="<%= acc.id %>">From <%= acc.currency %> Wallet</option>
+      <% }) %>
+  </select>
+  <input type="text" name="toUsername" placeholder="Recipient Username" class="block w-full mb-2 p-2">
+  <input type="number" name="amount" placeholder="Amount" class="block w-full mb-4 p-2">
+  <button class="bg-blue-600 text-white px-4 py-2 rounded">Execute Transfer</button>
+</form>
