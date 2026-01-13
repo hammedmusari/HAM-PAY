@@ -8,7 +8,7 @@ const User = sequelize.define('User', {
     password: { type: DataTypes.STRING, allowNull: false }
 });
 
-// 2. Account/Wallet Model (Multi-currency support)
+// 2. Account/Wallet Model (HAM-PAY - My Secure Payments support)
 const Account = sequelize.define('Account', {
     currency: { 
         type: DataTypes.STRING, 
