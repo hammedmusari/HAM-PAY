@@ -46,5 +46,5 @@ app.js - The main entry point of the server.
 https://hammedmusari.github.io/HAM-PAY/
 
 ## HAM-PAY DASHBOARD SCREENSHOTS
-![screenshot](HAM-PAY screenshot2.jpeg)
-![screenshot](HAM-PAY screenshot.jpeg)
+![HAM-PAY Screenshot](assets/images/HAM-PAY screenshot.jpeg)
+![HAM-PAY Screenshot 2](assets/images/HAM-PAY screenshot2.jpeg)
