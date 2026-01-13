@@ -1,5 +1,5 @@
 .payment-card {
-    background: #ffffff;
+    background: #4fa2e6;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -10,16 +10,16 @@ input {
     width: 100%;
     padding: 12px;
     margin: 10px 0 20px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #df98c1;
     border-radius: 6px;
     display: block;
 }
 
 button {
-    width: 100%;
+    width: 35%;
     padding: 15px;
-    background-color: #00a859; /* Green for success/payments */
-    color: white;
+    background-color: hsl(321, 57%, 80%); /* Green for success/payments */
+    color: rgb(226, 144, 206);
     border: none;
     border-radius: 6px;
     font-weight: bold;

@@ -25,7 +25,7 @@ HAM-PAY is a modern web application demo designed to simplify financial transact
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/ham-pay.git](https://github.com/yourusername/ham-pay.git)
+   git clone [https://github.com/hammedmusari/HAM-PAY.git](https://github.com/hammedmusari/HAM-PAY.git)
    cd ham-pay
 
    ## dependencies
@@ -42,3 +42,9 @@ HAM-PAY is a modern web application demo designed to simplify financial transact
 
 app.js - The main entry point of the server.
 
+## access the page via:
+https://hammedmusari.github.io/HAM-PAY/
+
+## HAM-PAY DASHBOARD SCREENSHOTS
+![screenshot](HAM-PAY screenshot2.jpeg)
+![screenshot](HAM-PAY screenshot.jpeg)
